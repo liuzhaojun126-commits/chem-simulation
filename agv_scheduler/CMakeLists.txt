@@ -9,7 +9,7 @@ catkin_package()
 # ---- 安装规则（安装后由 roslaunch/rospack 查找）----
 
 # 1) launch 文件 → share/agv_scheduler/launch（roslaunch agv_scheduler warehouse.launch 查找位置）
-install(DIRECTORY simulation/launch
+install(DIRECTORY launch
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
 # 2) Gazebo 世界 → share/agv_scheduler/simulation/world（launch 中 $(find agv_scheduler)/simulation/world/... 引用）
@@ -33,7 +33,7 @@ install(FILES simulation/warehouse_grid.json
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/simulation)
 
 # 7) 可执行脚本（spawn_agvs.sh）→ lib/agv_scheduler
-install(PROGRAMS simulation/launch/spawn_agvs.sh
+install(PROGRAMS launch/spawn_agvs.sh
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 # 8) Python 节点（agv_nav.py / dispatcher.py / agv_common.py）→ lib/agv_scheduler
