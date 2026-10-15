@@ -1,0 +1,10089 @@
+{
+ "resolution": 0.5,
+ "size": [
+  40,
+  28
+ ],
+ "cells": [
+  {
+   "rc": [
+    0,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    0,
+    1
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    2
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    3
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    4
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    5
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    6
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    7
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    8
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    9
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    10
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    11
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    12
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    13
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    14
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    15
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    16
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    17
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    18
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    19
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    20
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    21
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    22
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    23
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    24
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    25
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    26
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    27
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    28
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    29
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    30
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    31
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    32
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    33
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    34
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    35
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    36
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    37
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    38
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_bottom"
+  },
+  {
+   "rc": [
+    0,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    1,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    1,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP3"
+  },
+  {
+   "rc": [
+    1,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    1,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP1"
+  },
+  {
+   "rc": [
+    1,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP1"
+  },
+  {
+   "rc": [
+    1,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    2,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    2,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP3"
+  },
+  {
+   "rc": [
+    2,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    2,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    2,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    2,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    2,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    2,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    2,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    2,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP1"
+  },
+  {
+   "rc": [
+    2,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP1"
+  },
+  {
+   "rc": [
+    2,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    3,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    3,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    3,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    3,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    3,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    3,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    3,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    4,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    4,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    4,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    4,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    4,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    4,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    4,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    5,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    5,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    5,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    5,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    5,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    5,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    5,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    6,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    6,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_oxidizer"
+  },
+  {
+   "rc": [
+    6,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_general"
+  },
+  {
+   "rc": [
+    6,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_toxic"
+  },
+  {
+   "rc": [
+    6,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_consumable"
+  },
+  {
+   "rc": [
+    6,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    6,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    7,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    7,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    9
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z2"
+  },
+  {
+   "rc": [
+    7,
+    10
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z2"
+  },
+  {
+   "rc": [
+    7,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    7,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    8,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    8,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    8,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    8,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    8,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    8,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    8,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    8,
+    9
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z2"
+  },
+  {
+   "rc": [
+    8,
+    10
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z2"
+  },
+  {
+   "rc": [
+    8,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    8,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    8,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    8,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    8,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    9,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    9,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    9,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    9,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    9,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    9,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    9,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    9,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    9,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    9,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    9,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    9,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    10,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    10,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    10,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    10,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS1"
+  },
+  {
+   "rc": [
+    10,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    10,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    10,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS2"
+  },
+  {
+   "rc": [
+    10,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    10,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    10,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS3"
+  },
+  {
+   "rc": [
+    10,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    10,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    11,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    11,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    11,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    11,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    11,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    11,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    11,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    11,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    11,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    11,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    11,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    11,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    11,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    11,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    11,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    12,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    12,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    12,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    12,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    12,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    12,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    12,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    12,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    12,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    12,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    12,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    12,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    12,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    12,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    12,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    13,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    13,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    13,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    13,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    13,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    13,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    13,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    13,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    13,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    13,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    13,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    13,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    13,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    13,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    13,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    14,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    14,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    14,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    14,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    14,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    14,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    14,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    14,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    14,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    14,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    14,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    14,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    14,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    14,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    14,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    15,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    15,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    15,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    15,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P1"
+  },
+  {
+   "rc": [
+    15,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    15,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    15,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    15,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    15,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    15,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    15,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    15,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    15,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    15,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "P2"
+  },
+  {
+   "rc": [
+    15,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    16,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    16,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    16,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP1"
+  },
+  {
+   "rc": [
+    16,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    16,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP2"
+  },
+  {
+   "rc": [
+    16,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    16,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "PP3"
+  },
+  {
+   "rc": [
+    16,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "main_aisle"
+  },
+  {
+   "rc": [
+    16,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    17,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    17,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    17,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    18,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    18,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    18,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    18,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    18,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    18,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    18,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    18,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    18,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    18,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    18,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    18,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    19,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    19,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    19,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    19,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    19,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    19,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    19,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    19,
+    9
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z1"
+  },
+  {
+   "rc": [
+    19,
+    10
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z1"
+  },
+  {
+   "rc": [
+    19,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    19,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    19,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    19,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    19,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    20,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    20,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    20,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    20,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS4"
+  },
+  {
+   "rc": [
+    20,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    20,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    20,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS5"
+  },
+  {
+   "rc": [
+    20,
+    9
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z1"
+  },
+  {
+   "rc": [
+    20,
+    10
+   ],
+   "passable": false,
+   "safety": 3,
+   "zone": "Z1"
+  },
+  {
+   "rc": [
+    20,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    20,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    20,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "WS6"
+  },
+  {
+   "rc": [
+    20,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    20,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    21,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    21,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    21,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    21,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    21,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    21,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    21,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    22,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    22,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    22,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    22,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    22,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    22,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    22,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    23,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    23,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    23,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    23,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    23,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    23,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    23,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    24,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    24,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    24,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    24,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    24,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    24,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    24,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    25,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    25,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    25,
+    2
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    3
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    4
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    5
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    6
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    7
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    8
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    9
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_alkali"
+  },
+  {
+   "rc": [
+    25,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    25,
+    11
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    12
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    13
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    14
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    15
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    16
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    17
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    18
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_acid"
+  },
+  {
+   "rc": [
+    25,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    25,
+    20
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    21
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    22
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    23
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    24
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    25
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    26
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    27
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_organic"
+  },
+  {
+   "rc": [
+    25,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    25,
+    29
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    30
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    31
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    32
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    33
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    34
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    35
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    36
+   ],
+   "passable": false,
+   "safety": 1,
+   "zone": "rack_catalyst"
+  },
+  {
+   "rc": [
+    25,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP2"
+  },
+  {
+   "rc": [
+    25,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP2"
+  },
+  {
+   "rc": [
+    25,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    26,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    26,
+    1
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    2
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    3
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    4
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    5
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    6
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    7
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    8
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    9
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    10
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    11
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    12
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    13
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    14
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    15
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    16
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    17
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    18
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    19
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    20
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    21
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    22
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    23
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    24
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    25
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    26
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    27
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    28
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    29
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    30
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    31
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    32
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    33
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    34
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    35
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    36
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "cross_aisle"
+  },
+  {
+   "rc": [
+    26,
+    37
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP2"
+  },
+  {
+   "rc": [
+    26,
+    38
+   ],
+   "passable": true,
+   "safety": 0,
+   "zone": "CP2"
+  },
+  {
+   "rc": [
+    26,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  },
+  {
+   "rc": [
+    27,
+    0
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_left"
+  },
+  {
+   "rc": [
+    27,
+    1
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    2
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    3
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    4
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    5
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    6
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    7
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    8
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    9
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    10
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    11
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    12
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    13
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    14
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    15
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    16
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    17
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    18
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    19
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    20
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    21
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    22
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    23
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    24
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    25
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    26
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    27
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    28
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    29
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    30
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    31
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    32
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    33
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    34
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    35
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    36
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    37
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    38
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_top"
+  },
+  {
+   "rc": [
+    27,
+    39
+   ],
+   "passable": false,
+   "safety": 0,
+   "zone": "wall_right"
+  }
+ ]
+}

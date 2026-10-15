@@ -1,0 +1,42 @@
+# ============================================================
+# AGV 运动学模型与传感器参数（步骤2：AGV 模型轻量化导入与多实例化）
+# 对应《项目落地实施方案 V1.42》4.1 步骤 2（Tianracer 轻量化差速驱动）
+# ============================================================
+
+agv:
+  model: tianracer_light
+
+  # 差速运动学：v = (v_r + v_l)/2 , ω = (v_r - v_l)/L
+  kinematics:
+    wheelbase_L: 0.32      # m（轴距）
+    wheel_radius: 0.05     # m
+    v_max: 1.2             # m/s
+    a_max: 0.8             # m/s²（化学品防倾洒约束：|a| ≤ 0.8）
+    omega_max: 1.5         # rad/s
+    body:
+      length: 0.60         # m
+      width: 0.40          # m
+      height: 0.30         # m
+
+  # 传感器
+  sensors:
+    lidar:
+      type: laser          # 360°
+      range_min: 0.1       # m
+      range_max: 12.0      # m
+      rate: 10             # Hz
+      samples: 360
+    odom:
+      rate: 20             # Hz
+    imu:
+      rate: 100            # Hz
+
+  # 多实例化：N 台（可扩展至 10），命名空间 /agv{i}/
+  instances:
+    default_count: 5
+    max_count: 10
+
+  # 电量
+  battery:
+    capacity: 100.0        # %
+    recharge_threshold: 0.20   # < 20% 触发再拍卖

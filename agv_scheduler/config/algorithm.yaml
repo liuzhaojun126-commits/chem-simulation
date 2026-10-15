@@ -1,0 +1,71 @@
+# ============================================================
+# 算法超参（步骤5—10）
+# 对应《项目落地实施方案 V1.42》4.2/4.3
+# ============================================================
+
+# 步骤5 L1 DQN 任务分配
+dqn_allocator:
+  state:
+    queue_k: 10           # 队首 K=10 个任务特征
+  network: [256, 256, 128]
+  activation: relu
+  replay_capacity: 100000
+  target_update_tau: 0.005
+  gamma: 0.95
+  lr: 1.0e-4
+  batch: 128
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay_steps: 20000
+  tick_period: 30.0       # s（L1 战略级 ≈30s 周期）
+
+# 步骤5 L2 分布式拍卖
+auction:
+  decision_timeout_ms: 100
+  trigger:                # 事件触发：故障/低电量/插单/超时
+    - fault
+    - low_battery
+    - rush_order
+    - timeout
+  price_adjust_epsilon: 0.05
+
+# 步骤5 L3 改进遗传算法出价
+ga_bid:
+  population: 30
+  generations: 40
+  tournament_k: 3
+  crossover: ox           # 顺序交叉
+  mutation_pm: 0.1
+  elite: 2
+  w_makespan: 1.0
+  w_empty: 0.3
+
+# 步骤6 改进蚁群路径规划
+aco:
+  alpha: 1.0
+  beta: 2.0
+  gamma: 1.2
+  delta: 1.5
+  n_ants: 30
+  iterations: 60
+  rho0: 0.1
+  eta: 0.5               # 挥发系数随拥堵密度自适应
+  max_solve_ms: 200
+
+# 步骤8 MADQN
+madqn:
+  gamma: 0.95
+  lr: 5.0e-4
+  batch: 64
+  hidden: 128            # GRU 处理部分可观测
+  local_obs_grid: [3, 3]
+
+# 步骤10 动态权重自学习
+dynamic_weight:
+  alpha_outer: 5.0e-3    # 外层（慢速）
+  lr_inner: 1.0e-4
+  f_ema_lambda: 0.05     # 使用频次指数滑动平均
+  congestion_window: 60.0   # s 滚动窗口
+  update_every_episode: 50
+  momentum: 0.9
+  entropy_beta: 0.01

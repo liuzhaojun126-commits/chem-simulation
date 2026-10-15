@@ -1,0 +1,53 @@
+# ============================================================
+# 任务生成参数（步骤3：任务生成器，非齐次泊松过程）
+# 对应《项目落地实施方案 V1.42》4.1 步骤 3
+# ============================================================
+
+task:
+  # 任务到达强度：λ_i(t) = λ_i^base · (1 + A·sin(2πt/T + φ_i))
+  arrival:
+    period_T: 480.0       # min，日内高峰周期（8 小时一班）
+    amplitude_A: 0.4
+    phases_phi:           # 品类相位偏移
+      alkali: 0.0
+      acid: 0.5
+      organic_solvent: 1.0
+      catalyst: 1.5
+      oxidizer: 2.0
+      general: 2.5
+      toxic: 3.0
+      consumable: 3.5
+
+  # 品类使用频率模板（件/班）
+  base_rate:              # λ^base
+    alkali: 45.0          # 高频
+    acid: 45.0
+    organic_solvent: 20.0
+    catalyst: 3.0         # 低频
+    oxidizer: 12.0
+    general: 30.0
+    toxic: 8.0
+    consumable: 15.0
+
+  # 任务字段：task_id, chemical, hazard_class, mass, src, dst,
+  #          t_release, t_due, priority
+  priority:
+    w_hazard: 0.6         # priority = 0.6·hazard_class + 0.4·urgency
+    w_urgency: 0.4
+    hazard_class_score:   # 危化品等级分值（越高越危险越优先）
+      corrosive: 5
+      oxidizing: 5
+      toxic: 4
+      flammable: 3
+      non_hazardous: 1
+
+  # 单轮次任务数
+  count_range: [300, 800]
+
+  # 时间窗
+  due_time:
+    min_hours: 1.0
+    max_hours: 4.0
+
+  # 载重
+  mass_kg: [1.0, 50.0]

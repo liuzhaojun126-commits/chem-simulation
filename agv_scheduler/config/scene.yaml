@@ -1,0 +1,77 @@
+# ============================================================
+# 化工仓储 AGV 协同调度仿真平台 — 场景配置（步骤1：化工仓库场景建模）
+# 对应《项目落地实施方案 V1.42》4.1 步骤 1
+# 坐标系：x 向右（0~20 m），y 向上（0~14 m），栅格分辨率 0.5 m/格 → 40×28
+# ============================================================
+
+scene:
+  name: chemical_warehouse
+  # 静态层：外墙 20 m × 14 m
+  bounds:
+    x: [0.0, 20.0]        # m
+    y: [0.0, 14.0]        # m
+  wall_thickness: 0.5     # m
+
+grid:
+  resolution: 0.5         # m/格
+  size: [40, 28]          # [宽 col, 高 row]
+
+# 主通道宽 3 m
+main_aisle:
+  width: 3.0              # m
+  y_range: [5.5, 8.5]     # m
+
+# 三处会车避让点（主通道内的加宽避让区，语义标记，非障碍）
+passing_points:
+  - {id: PP1, x: [6.5, 7.5],   y: [5.5, 8.5]}
+  - {id: PP2, x: [10.0, 11.0], y: [5.5, 8.5]}
+  - {id: PP3, x: [13.5, 14.5], y: [5.5, 8.5]}
+
+# 装卸点 P1/P2
+loading_points:
+  - {id: P1, x: [0.5, 2.0],  y: [5.5, 8.0]}
+  - {id: P2, x: [18.0, 19.5], y: [5.5, 8.0]}
+
+# 工位 WS1—WS6
+workstations:
+  - {id: WS1, x: [1.0, 2.5],  y: [4.0, 5.5]}
+  - {id: WS2, x: [3.0, 4.5],  y: [4.0, 5.5]}
+  - {id: WS3, x: [15.0, 16.5], y: [4.0, 5.5]}
+  - {id: WS4, x: [1.0, 2.5],  y: [9.0, 10.5]}
+  - {id: WS5, x: [3.0, 4.5],  y: [9.0, 10.5]}
+  - {id: WS6, x: [15.0, 16.5], y: [9.0, 10.5]}
+
+# 充电桩 CP1—CP3（置于仓库角落走廊，不与货架重叠）
+charging_piles:
+  - {id: CP1, x: [18.5, 19.5], y: [0.5, 1.5]}
+  - {id: CP2, x: [18.5, 19.5], y: [12.5, 13.5]}
+  - {id: CP3, x: [0.5, 1.0],   y: [0.5, 1.5]}
+
+# 8 个储区货架（碱/酸/有机溶剂/催化剂/氧化剂/一般原料/毒性品/耗材）
+racks:
+  - {id: rack_alkali,         category: alkali,          x: [1.0, 5.0],   y: [10.5, 13.0]}
+  - {id: rack_acid,           category: acid,            x: [5.5, 9.5],   y: [10.5, 13.0]}
+  - {id: rack_organic,        category: organic_solvent, x: [10.0, 14.0], y: [10.5, 13.0]}
+  - {id: rack_catalyst,       category: catalyst,        x: [14.5, 18.5], y: [10.5, 13.0]}
+  - {id: rack_oxidizer,       category: oxidizer,        x: [1.0, 5.0],   y: [1.0, 3.5]}
+  - {id: rack_general,        category: general,         x: [5.5, 9.5],   y: [1.0, 3.5]}
+  - {id: rack_toxic,          category: toxic,           x: [10.0, 14.0], y: [1.0, 3.5]}
+  - {id: rack_consumable,     category: consumable,      x: [14.5, 18.5], y: [1.0, 3.5]}
+
+# 禁行区：Z1（酸类×碱类）、Z2（氧化剂×有机物）
+no_go_zones:
+  - {id: Z1, pair: [acid, alkali],          x: [4.5, 5.5], y: [9.5, 10.5], safety: 3}
+  - {id: Z2, pair: [oxidizer, organic_solvent], x: [4.5, 5.5], y: [3.5, 4.5], safety: 3}
+
+# AGV 初始位姿（多实例生成时使用，最多 10 台）
+agv_spawn_poses:
+  - {id: agv1, x: 19.0, y: 1.0,  yaw: 1.5708}   # CP1
+  - {id: agv2, x: 19.0, y: 13.0, yaw: -1.5708}  # CP2
+  - {id: agv3, x: 0.75, y: 1.0,  yaw: 1.5708}   # CP3
+  - {id: agv4, x: 1.25, y: 6.75, yaw: 0.0}      # P1
+  - {id: agv5, x: 18.75, y: 6.75, yaw: 3.1416}  # P2
+  - {id: agv6, x: 10.0, y: 6.75, yaw: 0.0}
+  - {id: agv7, x: 11.0, y: 6.75, yaw: 0.0}
+  - {id: agv8, x: 12.0, y: 6.75, yaw: 0.0}
+  - {id: agv9, x: 13.0, y: 6.75, yaw: 0.0}
+  - {id: agv10, x: 14.0, y: 6.75, yaw: 0.0}

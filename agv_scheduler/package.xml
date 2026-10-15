@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- ROS 包清单（ROS2GO / ROS Noetic 识别本包必需） -->
+<package format="2">
+  <name>agv_scheduler</name>
+  <version>1.42.0</version>
+  <description>化工仓储 AGV 协同调度仿真平台 —— ROS2GO/Gazebo 仿真空间（化工仓库世界 + 轻量化 Tianracer AGV + 多实例化）</description>
+  <maintainer email="buct@example.com">BUCT 不会起名的入扎队</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 运行时依赖（ROS Noetic desktop-full 通常已自带） -->
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+  </export>
+</package>

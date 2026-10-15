@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<!-- ============================================================
+     化工原料仓库 Gazebo 世界文件（步骤1：化工仓库场景建模）
+     对应《项目落地实施方案 V1.42》4.1 步骤 1
+     静态层：外墙 20m×14m；8 储区货架；禁行区 Z1/Z2；装卸点 P1/P2；
+             工位 WS1-WS6；充电桩 CP1-CP3；主通道 3m + 3 处避让点
+     坐标：仓库左下角为原点 (0,0)，x 向右 0~20m，y 向上 0~14m
+     ============================================================ -->
+<sdf version="1.6">
+  <world name="chemical_warehouse">
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- 地面 -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>30 24</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>30 24</size></plane></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 外墙（四边） -->
+    <model name="wall_bottom"><static>true</static>
+      <link name="link">
+        <pose>10 0.25 0.5 0 0 0</pose>
+        <collision name="c"><geometry><box><size>20 0.5 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>20 0.5 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.35 1</ambient></material></visual>
+      </link></model>
+    <model name="wall_top"><static>true</static>
+      <link name="link">
+        <pose>10 13.75 0.5 0 0 0</pose>
+        <collision name="c"><geometry><box><size>20 0.5 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>20 0.5 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.35 1</ambient></material></visual>
+      </link></model>
+    <model name="wall_left"><static>true</static>
+      <link name="link">
+        <pose>0.25 7 0.5 0 0 0</pose>
+        <collision name="c"><geometry><box><size>0.5 14 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.5 14 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.35 1</ambient></material></visual>
+      </link></model>
+    <model name="wall_right"><static>true</static>
+      <link name="link">
+        <pose>19.75 7 0.5 0 0 0</pose>
+        <collision name="c"><geometry><box><size>0.5 14 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.5 14 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.35 1</ambient></material></visual>
+      </link></model>
+
+    <!-- 8 个储区货架（顶行） -->
+    <model name="rack_alkali"><static>true</static>
+      <link name="link"><pose>3 11.75 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.84 0.5 0.54 1</ambient><diffuse>0.84 0.5 0.54 1</diffuse></material></visual>
+      </link></model>
+    <model name="rack_acid"><static>true</static>
+      <link name="link"><pose>7.5 11.75 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.95 0.61 0.35 1</ambient></material></visual>
+      </link></model>
+    <model name="rack_organic"><static>true</static>
+      <link name="link"><pose>12 11.75 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.97 0.83 0.43 1</ambient></material></visual>
+      </link></model>
+    <model name="rack_catalyst"><static>true</static>
+      <link name="link"><pose>16.5 11.75 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.67 0.67 0.67 1</ambient></material></visual>
+      </link></model>
+
+    <!-- 8 个储区货架（底行） -->
+    <model name="rack_oxidizer"><static>true</static>
+      <link name="link"><pose>3 2.25 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.95 0.46 0.46 1</ambient></material></visual>
+      </link></model>
+    <model name="rack_general"><static>true</static>
+      <link name="link"><pose>7.5 2.25 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.78 0.81 0.85 1</ambient></material></visual>
+      </link></model>
+    <model name="rack_toxic"><static>true</static>
+      <link name="link"><pose>12 2.25 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.6 0.44 0.8 1</ambient></material></visual>
+      </link></model>
+    <model name="rack_consumable"><static>true</static>
+      <link name="link"><pose>16.5 2.25 1.0 0 0 0</pose>
+        <collision name="c"><geometry><box><size>4 2.5 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>4 2.5 2</size></box></geometry>
+          <material><ambient>0.72 0.86 0.75 1</ambient></material></visual>
+      </link></model>
+
+    <!-- 禁行区 Z1（酸×碱）、Z2（氧化剂×有机物）：地面红色标记 -->
+    <model name="no_go_Z1"><static>true</static>
+      <link name="link"><pose>5 10 0.01 0 0 0</pose>
+        <collision name="c"><geometry><box><size>1 1 0.02</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1 1 0.02</size></box></geometry>
+          <material><ambient>0.8 0.15 0.15 1</ambient><diffuse>0.8 0.15 0.15 1</diffuse></material></visual>
+      </link></model>
+    <model name="no_go_Z2"><static>true</static>
+      <link name="link"><pose>5 4 0.01 0 0 0</pose>
+        <collision name="c"><geometry><box><size>1 1 0.02</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1 1 0.02</size></box></geometry>
+          <material><ambient>0.8 0.15 0.15 1</ambient><diffuse>0.8 0.15 0.15 1</diffuse></material></visual>
+      </link></model>
+
+    <!-- 装卸点 P1/P2、工位、充电桩（地面标记，非障碍） -->
+    <model name="mark_P1"><static>true</static>
+      <link name="link"><pose>1.25 6.75 0.005 0 0 0</pose>
+        <visual name="v"><geometry><box><size>1.5 2.5 0.01</size></box></geometry>
+          <material><ambient>1 0.69 0.23 1</ambient></material></visual>
+      </link></model>
+    <model name="mark_P2"><static>true</static>
+      <link name="link"><pose>18.75 6.75 0.005 0 0 0</pose>
+        <visual name="v"><geometry><box><size>1.5 2.5 0.01</size></box></geometry>
+          <material><ambient>1 0.69 0.23 1</ambient></material></visual>
+      </link></model>
+
+    <model name="mark_CP1"><static>true</static>
+      <link name="link"><pose>19 1 0.005 0 0 0</pose>
+        <visual name="v"><geometry><box><size>1 1 0.01</size></box></geometry>
+          <material><ambient>0.33 0.75 0.51 1</ambient></material></visual>
+      </link></model>
+    <model name="mark_CP2"><static>true</static>
+      <link name="link"><pose>19 13 0.005 0 0 0</pose>
+        <visual name="v"><geometry><box><size>1 1 0.01</size></box></geometry>
+          <material><ambient>0.33 0.75 0.51 1</ambient></material></visual>
+      </link></model>
+    <model name="mark_CP3"><static>true</static>
+      <link name="link"><pose>0.75 1 0.005 0 0 0</pose>
+        <visual name="v"><geometry><box><size>0.5 1 0.01</size></box></geometry>
+          <material><ambient>0.33 0.75 0.51 1</ambient></material></visual>
+      </link></model>
+
+  </world>
+</sdf>

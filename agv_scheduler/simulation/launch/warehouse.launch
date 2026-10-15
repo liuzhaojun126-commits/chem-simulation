@@ -1,0 +1,23 @@
+<launch>
+  <!-- 化工仓储仿真空间一键启动（ROS Noetic + Gazebo 11） -->
+  <arg name="world" default="$(find agv_scheduler)/simulation/world/chemical_warehouse.world"/>
+  <arg name="n_agvs" default="5"/>
+  <arg name="paused" default="false"/>
+  <arg name="gui" default="true"/>
+
+  <!-- 启动 Gazebo 世界 -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world)"/>
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="gui" value="$(arg gui)"/>
+    <arg name="use_sim_time" value="true"/>
+  </include>
+
+  <!-- 多实例化 AGV -->
+  <node pkg="agv_scheduler" type="spawn_agvs.sh" name="spawn_agvs"
+        args="$(arg n_agvs)" output="screen"/>
+
+  <!-- RViz 可视化 -->
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find agv_scheduler)/viz/warehouse.rviz"/>
+</launch>

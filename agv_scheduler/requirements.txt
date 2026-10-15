@@ -1,0 +1,14 @@
+# 化工仓储 AGV 协同调度仿真平台 —— 依赖
+# 核心仿真空间（必装）
+Pillow>=9.0
+PyYAML>=6.0
+
+# 可选：完整 DQN/MADQN 训练
+# torch>=2.0
+# 可选：Gym/PettingZoo 环境注册
+# gymnasium>=0.29
+# pettingzoo>=1.24
+
+# 数据分析与可视化（实验阶段）
+# numpy>=1.24
+# pandas>=2.0

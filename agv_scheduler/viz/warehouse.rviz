@@ -1,0 +1,38 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz/Grid
+      Name: Grid
+      Enabled: true
+      Plane Cell Count: 20
+    - Class: rviz/TF
+      Name: TF
+      Enabled: true
+    - Class: rviz/RobotModel
+      Name: RobotModel
+      Enabled: true
+    - Class: rviz/LaserScan
+      Name: LaserScan
+      Enabled: true
+      Topic: /agv1/scan
+    - Class: rviz/Path
+      Name: GlobalPath
+      Enabled: true
+      Topic: /agv1/global_path
+    - Class: rviz/MarkerArray
+      Name: TaskMarkers
+      Enabled: true
+      Topic: /tasks/markers
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: odom
+  Views:
+    Current:
+      Class: rviz/TopDownOrtho
+      Name: TopDownOrtho
+      Scale: 15

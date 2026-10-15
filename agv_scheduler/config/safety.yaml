@@ -1,0 +1,49 @@
+# ============================================================
+# 安全约束规则（步骤7：危化品相容性判定 / 时空冲突检测 / 动作屏蔽）
+# 对应《项目落地实施方案 V1.42》4.2 步骤 7
+# ============================================================
+
+safety:
+  # 化学品等级标签 → 语义层
+  hazard_classes:
+    corrosive: 腐蚀性
+    flammable: 易燃
+    toxic: 有毒
+    oxidizing: 氧化性
+    non_hazardous: 非危化
+
+  # 品类（8 储区货架）→ 危化品等级映射
+  category_hazard:
+    alkali: corrosive
+    acid: corrosive
+    organic_solvent: flammable
+    catalyst: non_hazardous
+    oxidizer: oxidizing
+    general: non_hazardous
+    toxic: toxic
+    consumable: non_hazardous
+
+  # 相容性矩阵（品类级）M[i][j]=0 → 品类 i 与 j 不可共用路径区域
+  # 依据：酸×碱（中和反应）、氧化剂×有机物（燃爆风险）
+  incompatible_pairs:
+    - [acid, alkali]                 # Z1
+    - [oxidizer, organic_solvent]    # Z2
+
+  # 危化品等级级相容性（氧化性 × 易燃不可共用）
+  hazard_incompatible:
+    - [oxidizing, flammable]
+
+  # 时空冲突检测
+  collision:
+    safety_radius: 0.5     # m，两车中心距 < 0.5 记为冲突
+    same_cell_timewindow_overlap: true
+    priority_order:        # 通行次序：危化品等级 → 紧急度 → 剩余时间窗
+      - hazard_class
+      - urgency
+      - remaining_time
+
+  # 动作屏蔽与紧急制动
+  action_mask:
+    enable: true
+    emergency_stop_on_violation: true
+    max_continuous_violation: 3
