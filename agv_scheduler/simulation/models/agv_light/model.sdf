@@ -111,7 +111,7 @@
       <sensor name="imu" type="imu">
         <update_rate>100</update_rate>
         <plugin name="gazebo_ros_imu" filename="libgazebo_ros_imu_sensor.so">
-          <frame_name>imu_link</frame_name>
+          <frameName>imu_link</frameName>
         </plugin>
       </sensor>
     </link>
@@ -120,19 +120,19 @@
       <child>imu_link</child>
     </joint>
 
-    <!-- 差速驱动 -->
+    <!-- 差速驱动（注意：参数为驼峰命名 camelCase，ROS Noetic 要求） -->
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
-      <left_joint>left_wheel_joint</left_joint>
-      <right_joint>right_wheel_joint</right_joint>
-      <wheel_separation>0.32</wheel_separation>
-      <wheel_diameter>0.10</wheel_diameter>
-      <max_wheel_torque>20</max_wheel_torque>
-      <max_wheel_acceleration>1.6</max_wheel_acceleration>
-      <command_topic>cmd_vel</command_topic>
-      <odometry_topic>odom</odometry_topic>
-      <odometry_frame>odom</odometry_frame>
-      <robot_base_frame>base_link</robot_base_frame>
-      <update_rate>20</update_rate>
+      <leftJoint>left_wheel_joint</leftJoint>
+      <rightJoint>right_wheel_joint</rightJoint>
+      <wheelSeparation>0.32</wheelSeparation>
+      <wheelDiameter>0.10</wheelDiameter>
+      <wheelTorque>20</wheelTorque>
+      <wheelAcceleration>1.6</wheelAcceleration>
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <robotBaseFrame>base_link</robotBaseFrame>
+      <updateRate>20</updateRate>
     </plugin>
 
   </model>
