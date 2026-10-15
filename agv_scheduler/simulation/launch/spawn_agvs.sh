@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================
 # AGV 多实例化启动脚本（步骤2：运行时批量生成）
-# 使用 gazebo_ros spawn_entity 按 ID 循环生成，命名空间 /agv{i}/
+# 使用 gazebo_ros spawn_model 按 ID 循环生成，命名空间 /agv{i}/
 # 用法: ./spawn_agvs.sh [N]   (默认 N=5，最大 10)
 # ============================================================
 set -e
@@ -22,9 +22,10 @@ YAW=(1.5708 -1.5708 1.5708 0.0 3.1416 0.0 0.0 0.0 0.0 0.0)
 for i in $(seq 1 "$N"); do
   idx=$((i-1))
   echo "生成 agv$i @ (${X[$idx]}, ${Y[$idx]})"
-  rosrun gazebo_ros spawn_entity.py \
+  rosrun gazebo_ros spawn_model \
+    -sdf \
     -file "${MODEL_DIR}/model.sdf" \
-    -entity "agv$i" \
+    -model "agv$i" \
     -robot_namespace "/agv$i" \
     -x "${X[$idx]}" -y "${Y[$idx]}" -Y "${YAW[$idx]}"
 done
