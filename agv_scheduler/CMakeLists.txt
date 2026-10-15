@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(agv_scheduler)
 
-# 本包为纯 launch/world/model/config 包，无编译代码
+# 纯 launch/world/model/config + Python 脚本包，无 C++ 编译
 find_package(catkin REQUIRED)
 
 catkin_package()
@@ -28,6 +28,18 @@ install(DIRECTORY config
 install(DIRECTORY viz
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
-# 6) 可执行脚本（spawn_agvs.sh）→ lib/agv_scheduler（roslaunch type="spawn_agvs.sh" 查找位置）
+# 6) 栅格底图 → share/agv_scheduler/simulation/warehouse_grid.json（导航节点加载）
+install(FILES simulation/warehouse_grid.json
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/simulation)
+
+# 7) 可执行脚本（spawn_agvs.sh）→ lib/agv_scheduler
 install(PROGRAMS simulation/launch/spawn_agvs.sh
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+
+# 8) Python 节点（agv_nav.py / dispatcher.py / agv_common.py）→ lib/agv_scheduler
+catkin_install_python(PROGRAMS
+  scripts/agv_nav.py
+  scripts/dispatcher.py
+  scripts/agv_common.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+

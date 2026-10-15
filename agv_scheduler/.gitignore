@@ -8,10 +8,12 @@ __pycache__/
 *.pyo
 *.egg-info/
 
-# 生成产物（可由脚本复现，无需入库）
-simulation/warehouse_grid.json
+# 生成产物（PNG/CSV 等可由脚本复现，不入库；栅格底图需入库供 ROS 导航节点加载）
 viz/*.png
+viz/charts/
 dashboard.png
+experiments/results/
+experiments/*.csv
 
 # 实验数据与日志
 experiments/*.csv

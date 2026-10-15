@@ -2611,7 +2611,7 @@
     7,
     9
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z2"
   },
@@ -2620,7 +2620,7 @@
     7,
     10
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z2"
   },
@@ -2971,7 +2971,7 @@
     8,
     9
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z2"
   },
@@ -2980,7 +2980,7 @@
     8,
     10
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z2"
   },
@@ -6931,7 +6931,7 @@
     19,
     9
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z1"
   },
@@ -6940,7 +6940,7 @@
     19,
     10
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z1"
   },
@@ -7291,7 +7291,7 @@
     20,
     9
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z1"
   },
@@ -7300,7 +7300,7 @@
     20,
     10
    ],
-   "passable": false,
+   "passable": true,
    "safety": 3,
    "zone": "Z1"
   },

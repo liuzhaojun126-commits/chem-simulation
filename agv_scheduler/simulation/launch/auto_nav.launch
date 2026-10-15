@@ -1,0 +1,73 @@
+<launch>
+  <!-- ============================================================
+       多车自主导航一键启动（P3/P4 演示）
+       世界 + spawn + RViz + 每车导航节点 + 调度节点
+       用法: roslaunch agv_scheduler auto_nav.launch n_agvs:=5
+       ============================================================ -->
+  <arg name="n_agvs" default="5"/>
+  <arg name="grid_file" default="$(find agv_scheduler)/simulation/warehouse_grid.json"/>
+
+  <!-- 1) 世界 + 多实例化 AGV + RViz -->
+  <include file="$(find agv_scheduler)/launch/warehouse.launch">
+    <arg name="n_agvs" value="$(arg n_agvs)"/>
+  </include>
+
+  <!-- 2) 每台 AGV 的自主导航节点（命名空间 /agv{i}） -->
+  <group ns="agv1">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv2">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv3">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv4">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv5">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+
+  <!-- 6~10 台（按需） -->
+  <group ns="agv6" if="$(eval arg('n_agvs') >= 6)">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv7" if="$(eval arg('n_agvs') >= 7)">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv8" if="$(eval arg('n_agvs') >= 8)">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv9" if="$(eval arg('n_agvs') >= 9)">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+  <group ns="agv10" if="$(eval arg('n_agvs') >= 10)">
+    <node pkg="agv_scheduler" type="agv_nav.py" name="agv_nav" output="screen">
+      <param name="grid_file" value="$(arg grid_file)"/>
+    </node>
+  </group>
+
+  <!-- 3) 任务调度节点 -->
+  <node pkg="agv_scheduler" type="dispatcher.py" name="dispatcher" output="screen">
+    <param name="n_agvs" value="$(arg n_agvs)"/>
+  </node>
+</launch>

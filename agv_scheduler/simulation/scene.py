@@ -69,6 +69,7 @@ class Zone:
     safety: int = 0      # 0 一般 / 1 储区 / 3 禁行
     category: Optional[str] = None   # 语义层：区域所属品类（货架/禁行区）
     hazard: Optional[str] = None     # 语义层：区域危化品等级标签
+    restricted: Optional[list] = None  # 禁行区 Z1/Z2 的受限品类对（条件禁行）
 
 
 @dataclass
@@ -115,6 +116,30 @@ class Scene:
                 if self.grid[r][c].zone == zone_id:
                     out.append((r, c))
         return out
+
+    def zone_access_point(self, zone_id: str) -> Optional[Tuple[int, int]]:
+        """返回区域附近最近的可行走栅格（货架/禁行区等不可通行区域的"前沿"接入点）。"""
+        from collections import deque
+        cells = self.cells_of_zone(zone_id)
+        if not cells:
+            return None
+        center = (sum(r for r, _ in cells) // len(cells),
+                  sum(c for _, c in cells) // len(cells))
+        if self.is_passable(*center):
+            return center
+        seen = {center}
+        q = deque([center])
+        while q:
+            r, c = q.popleft()
+            for dr, dc in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                nr, nc = r + dr, c + dc
+                if (nr, nc) in seen or not (0 <= nr < self.rows and 0 <= nc < self.cols):
+                    continue
+                if self.is_passable(nr, nc):
+                    return (nr, nc)
+                seen.add((nr, nc))
+                q.append((nr, nc))
+        return center
 
     def zone(self, zone_id: str) -> Optional[Zone]:
         for z in self.zones:
@@ -179,13 +204,13 @@ def build_scene(config: dict) -> Scene:
             "rack", False, 1, category=cat, hazard=CATEGORY_HAZARD[cat],
         ))
 
-    # 3) 禁行区 Z1/Z2
+    # 3) 禁行区 Z1/Z2（条件禁行：对受限品类不可通行，其余品类可通行）
     for nz in config["no_go_zones"]:
         pair = nz["pair"]
         add(Zone(
             nz["id"], f"禁行区({pair[0]}×{pair[1]})",
             nz["x"][0], nz["y"][0], nz["x"][1], nz["y"][1],
-            "no_go", False, nz["safety"],
+            "no_go", True, nz["safety"], restricted=list(pair),
         ))
 
     # 4) 装卸点 P1/P2

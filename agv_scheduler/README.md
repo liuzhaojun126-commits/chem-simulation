@@ -118,12 +118,17 @@ export GAZEBO_MODEL_PATH=~/catkin_ws/src/agv_scheduler/simulation/models:$GAZEBO
 ### 4.4 启动
 
 ```bash
-# 一键：世界 + 多实例化 5 台 AGV + RViz
+# 一键：世界 + 多实例化 5 台 AGV + RViz（手动遥控版）
 roslaunch agv_scheduler warehouse.launch n_agvs:=5
+
+# 一键：多车【自主导航】（车自己跑任务，A* 规划 + 纯追踪 + 调度下发）
+roslaunch agv_scheduler auto_nav.launch n_agvs:=5
 
 # 或单独多实例化（5→10 台）
 rosrun agv_scheduler spawn_agvs.sh 5
 ```
+
+`auto_nav.launch` 会自动：生成世界与 AGV → 每台 AGV 启动 `agv_nav.py`（订阅 odom/scan，A* 规划，发布 cmd_vel）→ 启动 `dispatcher.py`（按任务序列向 `/agv{i}/goal` 下发取送目标）。车会从货架取货 → 送到工位/装卸点，循环执行。
 
 ### 4.5 依赖检查（ROS Noetic desktop-full 一般已自带）
 
@@ -143,15 +148,36 @@ rosrun agv_scheduler spawn_agvs.sh 5
 | L2 分布式拍卖 | `scheduling/auction.py` | 可运行 |
 | L3 GA 出价 | `scheduling/ga_bid.py` | 可运行 |
 | 仲裁器 | `scheduling/arbiter.py` | 可运行 |
+| 基线策略 B1/B2/B3/Ours | `scheduling/baselines.py` | 可运行 |
 | A* | `planning/astar.py` | 可运行 |
 | 蚁群 | `planning/aco.py` | 可运行（简化） |
+| MADQN 协同 | `planning/madqn.py` | 优先级规划回退可运行；QMIX 需 PyTorch |
 | 安全规则引擎 | `safety/engine.py` + 子模块 | 可运行 |
 | 动态权重 | `weights/dynamic_weight.py` | 可运行 |
 | 指标采集 | `metrics/collector.py` | 可运行 |
+| 实验框架 | `experiments/experiment.py` + `run_experiments.py` | 可运行 |
+| ROS 自主导航 | `scripts/agv_nav.py` + `dispatcher.py` | 可运行（Gazebo） |
+| 图表/看板 | `viz/charts.py` + `dashboard.py` | 可运行 |
 
-## 六、验收对照（M1 里程碑）
+## 六、实验复现（P4：基线对比 / 消融 / 可扩展性）
+
+```bash
+cd agv_scheduler
+python experiments/run_experiments.py --mode baseline     # 基线对比（B1/B2/B3/Ours）
+python experiments/run_experiments.py --mode ablation     # 消融（A1~A4）
+python experiments/run_experiments.py --mode scalability  # 可扩展性（3~10 车）
+python experiments/run_experiments.py --mode all          # 全部
+```
+
+结果写入 `experiments/results/*.csv`，指标含义见方案书（makespan/wait/total_length/conflict/violation/congestion_rate/energy/brake_count）。
+
+典型结论（与方案书一致）：Ours 安全违规 = 0（基线 14~28 次）、路径总长度最低、能耗最低；消融中 A4 去 MADQN 劣化最大、A3 去安全约束使违规从 0 升至 ~16。
+
+## 七、验收对照
 
 - 世界文件可在 Gazebo 中加载（`simulation/world/chemical_warehouse.world`）
 - 栅格底图与可视化布局一致（`simulation/warehouse_grid.json` ↔ `viz/*.png`）
-- 禁行区在渲染图中正确显示（红色 Z1/Z2）
-- 单车 A* 导航成功率（演示从 P1 → 货架 → 工位）
+- 禁行区 Z1/Z2 条件禁行（受限品类不可通行，安全硬约束）
+- 单车 A* 导航成功率（`experiments/demo.py`：P1 → 货架 → 工位）
+- 多车自主导航（`roslaunch agv_scheduler auto_nav.launch`）
+- 实验管线可一键复跑（`experiments/run_experiments.py`）
