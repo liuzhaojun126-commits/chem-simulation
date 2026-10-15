@@ -1,12 +1,13 @@
 <?xml version="1.0" ?>
 <!-- ============================================================
-     轻量化 Tianracer AGV 模型（步骤2：差速驱动，多实例化）
-     参数：轴距 L=0.32m，轮半径 r=0.05m，v_max=1.2m/s，a_max=0.8m/s²
+     轻量化 Tianracer AGV 模型（差速驱动）
+     修正：车轮圆柱绕 X 旋转 -90° 使轴线沿 Y（可滚动）、
+          车身离地高度、差速驱动插件驼峰参数。
      ============================================================ -->
 <sdf version="1.6">
   <model name="agv_light">
 
-    <!-- 基座 -->
+    <!-- 基座（0.6x0.4x0.3，蓝色） -->
     <link name="base_link">
       <inertial>
         <mass>15.0</mass>
@@ -21,7 +22,7 @@
       </visual>
     </link>
 
-    <!-- 左轮 -->
+    <!-- 左轮（圆柱绕 X -90° 使轴线沿 Y，可滚动） -->
     <link name="left_wheel">
       <inertial>
         <mass>0.4</mass>
@@ -32,13 +33,14 @@
       </collision>
       <visual name="visual">
         <geometry><cylinder><radius>0.05</radius><length>0.03</length></cylinder></geometry>
+        <material><ambient>0.1 0.1 0.1 1</ambient><diffuse>0.1 0.1 0.1 1</diffuse></material>
       </visual>
     </link>
     <joint name="left_wheel_joint" type="revolute">
       <parent>base_link</parent>
       <child>left_wheel</child>
-      <axis><xyz>0 1 0</xyz></axis>
-      <pose>0 0.16 0 0 0 0</pose>
+      <pose>0 0.16 -0.10 -1.5708 0 0</pose>
+      <axis><xyz>0 0 1</xyz></axis>
     </joint>
 
     <!-- 右轮 -->
@@ -52,16 +54,17 @@
       </collision>
       <visual name="visual">
         <geometry><cylinder><radius>0.05</radius><length>0.03</length></cylinder></geometry>
+        <material><ambient>0.1 0.1 0.1 1</ambient><diffuse>0.1 0.1 0.1 1</diffuse></material>
       </visual>
     </link>
     <joint name="right_wheel_joint" type="revolute">
       <parent>base_link</parent>
       <child>right_wheel</child>
-      <axis><xyz>0 1 0</xyz></axis>
-      <pose>0 -0.16 0 0 0 0</pose>
+      <pose>0 -0.16 -0.10 -1.5708 0 0</pose>
+      <axis><xyz>0 0 1</xyz></axis>
     </joint>
 
-    <!-- 万向轮 -->
+    <!-- 万向轮（前部支撑） -->
     <link name="caster">
       <inertial>
         <mass>0.1</mass>
@@ -72,12 +75,13 @@
       </collision>
       <visual name="visual">
         <geometry><sphere><radius>0.03</radius></sphere></geometry>
+        <material><ambient>0.2 0.2 0.2 1</ambient></material>
       </visual>
     </link>
     <joint name="caster_joint" type="ball">
       <parent>base_link</parent>
       <child>caster</child>
-      <pose>-0.25 0 -0.02 0 0 0</pose>
+      <pose>-0.25 0 -0.12 0 0 0</pose>
     </joint>
 
     <!-- 激光雷达（360°，0.1~12m，10Hz） -->
@@ -120,7 +124,7 @@
       <child>imu_link</child>
     </joint>
 
-    <!-- 差速驱动（注意：参数为驼峰命名 camelCase，ROS Noetic 要求） -->
+    <!-- 差速驱动（驼峰参数 camelCase） -->
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
       <leftJoint>left_wheel_joint</leftJoint>
       <rightJoint>right_wheel_joint</rightJoint>

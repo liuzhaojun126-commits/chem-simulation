@@ -27,7 +27,7 @@ for i in $(seq 1 "$N"); do
     -file "${MODEL_DIR}/model.sdf" \
     -model "agv$i" \
     -robot_namespace "/agv$i" \
-    -x "${X[$idx]}" -y "${Y[$idx]}" -Y "${YAW[$idx]}"
+    -x "${X[$idx]}" -y "${Y[$idx]}" -z 0.15 -Y "${YAW[$idx]}"
 done
 
 echo "已生成 $N 台 AGV"
