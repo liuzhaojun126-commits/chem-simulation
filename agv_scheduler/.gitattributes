@@ -1,0 +1,25 @@
+# ============================================================
+# Git 换行符规范（关键！Windows 提交 → Linux 克隆必须）
+# 强制所有脚本/配置文件以 LF 换行，避免 CRLF 导致 bash 脚本报错
+# ============================================================
+* text=auto
+
+# 脚本与 ROS/配置文件强制 LF
+*.sh      text eol=lf
+*.launch  text eol=lf
+*.xml     text eol=lf
+*.world   text eol=lf
+*.sdf     text eol=lf
+*.config  text eol=lf
+*.rviz    text eol=lf
+
+# 源码与数据文件统一 LF
+*.py      text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.json    text eol=lf
+
+# 二进制（Pillow 生成的 PNG）
+*.png     binary

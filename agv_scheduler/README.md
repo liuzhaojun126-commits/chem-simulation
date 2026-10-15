@@ -91,7 +91,7 @@ cd agv_scheduler
 ./setup_ros2go.sh /media/$USER/ROS2GO/agv_scheduler
 ```
 
-脚本自动完成：创建 `~/catkin_ws` → 复制包 → `catkin_make` → 装 Pillow → 写 `~/.bashrc`。
+脚本自动完成：创建 `~/catkin_ws` → 复制包 → `catkin_make install` → 装 Pillow → 写 `~/.bashrc`。
 
 ### 4.3 手动部署（等价步骤）
 
@@ -100,16 +100,20 @@ cd agv_scheduler
 mkdir -p ~/catkin_ws/src
 cp -r agv_scheduler ~/catkin_ws/src/
 
-# 2) 编译注册
+# 2) 编译并安装（launch 文件安装到 install/share/ 供 roslaunch 查找）
 cd ~/catkin_ws
-catkin_make
+catkin_make install
 
-# 3) source 工作空间
-source devel/setup.bash
+# 3) source 安装空间
+source install/setup.bash
 
-# 4) 设置 Gazebo 模型路径（让 Gazebo 找到 agv_light 模型）
+# 4) （可选）设置 Gazebo 模型路径，便于 Gazebo GUI 直接"Insert"该模型
 export GAZEBO_MODEL_PATH=~/catkin_ws/src/agv_scheduler/simulation/models:$GAZEBO_MODEL_PATH
 ```
+
+> 说明：launch 文件按实施方案结构放在 `simulation/launch/` 下，`roslaunch` 默认只在
+> `<包>/launch/` 查找，因此需用 `catkin_make install`（而非裸 `catkin_make`），由
+> `CMakeLists.txt` 把 launch 安装到标准 `share/agv_scheduler/launch/` 位置。
 
 ### 4.4 启动
 

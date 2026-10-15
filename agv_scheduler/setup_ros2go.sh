@@ -31,20 +31,20 @@ else
   echo "  $WS/src/agv_scheduler 已存在，跳过复制"
 fi
 
-echo "== [3/5] 编译（注册 ROS 包）=="
+echo "== [3/5] 编译并安装（launch 文件安装到 share/ 供 roslaunch 查找）=="
 cd "$WS"
-catkin_make
+catkin_make install
 
 echo "== [4/5] 安装 Python 渲染依赖（仅纯 Python 网格仿真需要）=="
 python3 -m pip install --user Pillow 2>/dev/null \
   && echo "  Pillow OK" || echo "  Pillow 安装失败（可忽略，仅影响 PNG 渲染；核心仿真已内置无依赖 YAML 解析）"
 
 echo "== [5/5] 写入环境变量 =="
-source "$WS/devel/setup.bash"
+source "$WS/install/setup.bash"
 export GAZEBO_MODEL_PATH="$WS/src/agv_scheduler/simulation/models:${GAZEBO_MODEL_PATH}"
 
-if ! grep -q "catkin_ws/devel/setup.bash" "$HOME/.bashrc" 2>/dev/null; then
-  echo "source $WS/devel/setup.bash" >> "$HOME/.bashrc"
+if ! grep -q "catkin_ws/install/setup.bash" "$HOME/.bashrc" 2>/dev/null; then
+  echo "source $WS/install/setup.bash" >> "$HOME/.bashrc"
 fi
 if ! grep -q "agv_scheduler/simulation/models" "$HOME/.bashrc" 2>/dev/null; then
   echo "export GAZEBO_MODEL_PATH=$WS/src/agv_scheduler/simulation/models:\$GAZEBO_MODEL_PATH" >> "$HOME/.bashrc"

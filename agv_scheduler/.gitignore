@@ -1,0 +1,22 @@
+# ============================================================
+# Git 忽略清单
+# ============================================================
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 生成产物（可由脚本复现，无需入库）
+simulation/warehouse_grid.json
+viz/*.png
+dashboard.png
+
+# 实验数据与日志
+experiments/*.csv
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
