@@ -96,7 +96,6 @@
           <range><min>0.1</min><max>12.0</max><resolution>0.01</resolution></range>
         </ray>
         <plugin name="gazebo_ros_laser" filename="libgazebo_ros_ray_sensor.so">
-          <ros><namespace>/agv</namespace></ros>
           <output_type>sensor_msgs/LaserScan</output_type>
           <frame_name>lidar_link</frame_name>
         </plugin>
@@ -112,7 +111,6 @@
       <sensor name="imu" type="imu">
         <update_rate>100</update_rate>
         <plugin name="gazebo_ros_imu" filename="libgazebo_ros_imu_sensor.so">
-          <ros><namespace>/agv</namespace></ros>
           <frame_name>imu_link</frame_name>
         </plugin>
       </sensor>
@@ -124,7 +122,6 @@
 
     <!-- 差速驱动 -->
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
-      <ros><namespace>/agv</namespace></ros>
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
       <wheel_separation>0.32</wheel_separation>
